@@ -1,0 +1,60 @@
+@import '../../constants.css';
+.container{
+    flex: 1 0 20%;
+    position: relative;
+    margin: 5px;
+    overflow: hidden;
+    color: var(--gray-color);
+    user-select: none;
+    &:hover button{
+        visibility: visible;
+    }
+}
+.text{
+    color: var(--primary-color);
+}
+.icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    width: 15%;
+    margin: 8px;
+    height: auto;
+}
+.cell{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    height: 100%;
+}
+.plus{
+    flex: 1;
+    align-self: center;
+    font-size: 48px;
+    text-align: center;
+}
+
+.button-group{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    & button {
+        margin: 4px 5px 4px 0;
+        visibility: hidden;
+    }
+
+}
+.add {
+    float: right;
+}
+
+.active{
+    border-color: var(--active-cell-color);
+}
+.over {
+    color: navy;
+}
+.none{
+    display: none;
+}

@@ -1,0 +1,37 @@
+@import '../../constants.css';
+.container{
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+    position: relative;
+}
+.modal {
+    position: absolute;
+    right: -128px;
+    background: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    user-select: none;
+    border-radius: 4px;
+    padding: 10px;
+    box-shadow: 0 0 15px silver;
+    width: 200px;
+     z-index: 3;
+}
+.overlay {
+    @apply --overlay;
+    background-color: transparent;
+    z-index: 2;
+}
+
+.color {
+    flex: 1 0 22px;
+    width: 22px;
+    height: 22px;
+    margin: 1px;
+    cursor: pointer;
+    border-radius: 4px;
+}

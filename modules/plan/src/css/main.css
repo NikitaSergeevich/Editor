@@ -1,0 +1,57 @@
+#reports h2 {
+  margin-top: 5px;
+}
+#reports #date-picker {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+#reports .orders-types .list-group-item.active a {
+  color: white;
+}
+.grid-header-top {
+  vertical-align: top !important;
+}
+.grid-header-top-right {
+  text-align: right !important;
+  vertical-align: top !important;
+}
+.grid-content-right {
+  text-align: right !important;
+}
+body {
+  background-color: white;
+}
+.wrap .container {
+  padding-top: 0;
+}
+.wrap .container #site-login {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+.wrap .navbar-default {
+  padding: 8px 32px;
+}
+.wrap .navbar-default .navbar-brand {
+  padding: 8px 32px;
+}
+#report-filter .form-group {
+  margin-bottom: .5em;
+}
+.selectize-dropdown {
+  min-width: 200px !important;
+}
+
+.main-container {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  overflow: auto;
+}

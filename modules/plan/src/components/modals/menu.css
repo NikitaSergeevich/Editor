@@ -1,0 +1,22 @@
+@import '../../constants/variables.css';
+
+.overlay{
+   @apply --overlay;
+   z-index: 3;
+   background-color: transparent;
+}
+.menu{
+    position: absolute;
+    display: block;
+    max-height: 300px;
+    min-width: 200px;
+    overflow: auto;
+    bottom: 100%;
+    top: auto;
+    margin-bottom: 3px;
+    
+}
+
+.container{
+    position: relative;
+}

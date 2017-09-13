@@ -1,0 +1,62 @@
+@import '../../constants.css';
+.container{
+    position: relative;
+    display: table;
+    padding-left: 0;
+    padding-right: 0;
+}
+.active{
+    border-color: #66afe9;
+    box-shadow: 0 0 10px 0 lightblue;
+}
+.overlay{
+    @apply --overlay; 
+    background-color: transparent;
+    z-index: 2;
+}
+
+.form{
+    /*display: table-cell;*/
+    display: block;
+    /* max-height: 200px; */
+    /* overflow-y: auto; */
+}
+.input {
+    float: left;
+    border: none;
+    outline: none;
+    max-width: 100%;
+    padding-left: 5px; 
+    background-color: transparent;
+}
+.menu { 
+    display: block;
+    padding: 2px;
+}
+.container ul {
+    padding: 2px;
+    max-height: 200px;
+    min-width: 50%;
+    overflow: auto;
+    user-select: none;
+    cursor: pointer;
+}
+
+.tag {
+    margin: 1px 1px 0 0;
+    float: left;
+    user-select: none;
+    cursor: pointer;
+    background-color: #e6f0f2;
+    color: #4b4b4b;
+    margin-bottom: 2px;
+    margin-left: 10px;
+}
+.hidden {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
+    visibility: hidden;
+}
+

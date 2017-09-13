@@ -1,0 +1,13 @@
+.badge {
+    border-radius: 3px;
+    color: white;
+    background-color: #555;
+    padding: 0 5px 2px 5px;
+}
+
+.weekoff{
+    border-radius: 3px;
+    color: white;
+    background-color: #faa;
+    padding: 0 5px 2px 5px;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "menu",
+  "version": "1.0.0",
+  "description": "menu DnD",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm-run-all --parallel proxy server",
+    "server": "node .",
+    "proxy": "corsproxy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "GaryGolf",
+  "license": "ISC",
+  "devDependencies": {
+    "corsproxy": "^1.5.0",
+    "express": "^4.15.2",
+    "npm-run-all": "^4.0.2"
+  }
+}

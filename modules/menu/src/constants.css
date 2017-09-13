@@ -1,0 +1,38 @@
+:root{
+    /*colors*/
+    --primary-color: #333333;
+    --gray-color: rgba(215, 215, 215, 1);
+    --lightgray-color: rgba(228, 228, 228, 1);
+    --active-cell-color: lightblue;
+
+    --list-item: {
+        width: 100%;
+        height: 36px;
+        line-height: 36px;
+        overflow: hidden;
+    }
+    --scrollable: {
+        height: 100%;
+        display: block;
+        position: relative;
+        overflow-y: auto;
+    }
+
+    --overlay: {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(8, 169, 174, 0.55);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 1000;
+    }
+}
+
+

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta name="tenant-domain" content="pekarni">
+    <meta name="access-token" content="Egs_MNMvzTWmV-eUcUDDgEF3B4V7gyJg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf-backend">
+    <meta name="csrf-token" content="R1Z1azc2dkQkZg0lYV4bDBc7DARZRkAUDxtDIlROBhAVZEUnQVxFIg==">
+    <title>Редактирование меню</title>
+    <link href="css/app.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet"> <!-- поставил перед main -->
+</head>
+<body class="terminal-menu_srcoll">
+
+<div class="container-layout">
+    <header class="header">
+        <nav class="navbar navbar-default navbar_header">
+            <div class="container-fluid container-fluid_big">
+                <div class="navbar-header">
+                    <a class="logo" href="/"></a>
+                </div>
+                <ul id="w1" class="nav navbar-nav"><li><a class="navbar-icon navbar-icon_report" href="/report">Отчеты</a></li>
+                    <li class="dropdown"><a class="navbar-icon navbar-icon_structure dropdown-toggle" href="#" data-toggle="dropdown">Предприятие <b class="caret"></b></a><ul id="w2" class="dropdown-menu"><li><a href="/structure/organization" tabindex="-1">Организации</a></li>
+                        <li><a href="/structure/warehouses" tabindex="-1">Склады</a></li>
+                        <li><a href="/structure/sale-point" tabindex="-1">Торговые точки</a></li>
+                        <li><a href="/device/terminal" tabindex="-1">Терминалы</a></li>
+                        <li><a href="/structure/user" tabindex="-1">Пользователи</a></li></ul></li>
+                    <li class="dropdown"><a class="navbar-icon navbar-icon_nomenclature dropdown-toggle" href="/structure/sale-point/nomenclature" data-toggle="dropdown">Номенклатура <b class="caret"></b></a><ul id="w3" class="dropdown-menu"><li><a href="/nomenclature/category" tabindex="-1">Товары</a></li>
+                        <li><a href="/terminal-menu/new-menu" tabindex="-1">Меню терминала</a></li>
+                        <li><a href="/nomenclature/specification" tabindex="-1">Спецификации</a></li>
+                        <li><a href="/nomenclature/import" tabindex="-1">Импорт</a></li>
+                        <li><a href="/stop-list/default" tabindex="-1">Стоп-лист</a></li></ul></li>
+                    <li class="dropdown"><a class="navbar-icon navbar-icon_hr dropdown-toggle" href="#" data-toggle="dropdown">Персонал <b class="caret"></b></a><ul id="w4" class="dropdown-menu"><li><a href="/hr/employee" tabindex="-1">Сотрудники</a></li>
+                        <li><a href="/hr/vacancy" tabindex="-1">Вакансии</a></li>
+                        <li><a href="/hr/applicant" tabindex="-1">Кандидаты</a></li>
+                        <li><a href="/hr/department" tabindex="-1">Подразделения</a></li>
+                        <li><a href="/hr/post" tabindex="-1">Должности</a></li></ul></li>
+                    <li class="dropdown"><a class="navbar-icon navbar-icon_marketing dropdown-toggle" href="#" data-toggle="dropdown">Маркетинг <b class="caret"></b></a><ul id="w5" class="dropdown-menu"><li><a href="/loyalty/loyalty-settings/change-settings" tabindex="-1">Лояльность</a></li>
+                        <li><a href="/email-templates/template" tabindex="-1">Почтовые шаблоны</a></li>
+                        <li><a href="/sales/customer" tabindex="-1">Покупатели</a></li>
+                        <li><a href="/sales/customer-group" tabindex="-1">Группы покупателей</a></li>
+                        <li><a href="/planning/document" tabindex="-1">План продаж</a></li>
+                        <li><a href="/special/special" tabindex="-1">Акции</a></li></ul></li>
+                    <li class="dropdown"><a class="navbar-icon navbar-icon_dictionary dropdown-toggle" href="#" data-toggle="dropdown">Справочники <b class="caret"></b></a><ul id="w6" class="dropdown-menu"><li><a href="/nomenclature/manufacture-place" tabindex="-1">Места изготовления</a></li>
+                        <li><a href="/nomenclature/product-tag" tabindex="-1">Теги товаров</a></li></ul></li>
+                    <li class="dropdown"><a class="navbar-icon navbar-icon_warehouse dropdown-toggle" href="#" data-toggle="dropdown">Склад <b class="caret"></b></a><ul id="w7" class="dropdown-menu"><li><a href="/warehouse/document" tabindex="-1">Журнал документов</a></li>
+                        <li><a href="/warehouse/contractor" tabindex="-1">Контрагенты</a></li>
+                        <li><a href="/warehouse/contractor-group" tabindex="-1">Группы контрагентов</a></li>
+                        <li><a href="/warehouse/delivery-scheme" tabindex="-1">Схемы поставки</a></li>
+                        <li><a href="/warehouse/minimum-residues" tabindex="-1">Минимальные остатки</a></li></ul></li></ul>                    <ul id="w8" class="nav navbar-nav navbar-right"><li class="dropdown dropdown-dashboard"><a class="dropdown-toggle" href="#" data-toggle="dropdown"> <b class="caret"></b></a><ul id="w9" class="dropdown-menu"><li class="cashbox"><a href="/retail#initial_data={&quot;terminal_id&quot;:&quot;9dd7f0fd-2ae2-6079-8a60-641c5a4bc9d9&quot;,&quot;access_token&quot;:&quot;infinity_access_terminal_google&quot;,&quot;is_demo&quot;:true}" tabindex="-1">Касса</a></li></ul></li>
+                <li class="dropdown dropdown-profile"><a class="dropdown-profil dropdown-toggle" href="#" data-profile-name="US" data-toggle="dropdown"> <b class="caret"></b></a><ul id="w10" class="dropdown-menu"><li><a href="site/logout" tabindex="-1">Выйти</a></li></ul></li></ul>                </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid container-main">
+        <main class="wrapper">
+            <div class="main-content">
+                <div class="main-content__center main-content__center_menu-page">
+                    <div id="menu-visual" data-id="679d58a7-8f3b-4c4b-aeb2-27c3ceadea5d" 
+                    data-api-host="dooglys.local:8222/"
+                    data-api-host-1="dev.dooglys.com/"
+                    >
+                        <!-- сюда вставляем содержимое, див #menu-visual оставляем на месте неизменным -->
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/yii.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/selectize.js"></script>
+<script src="js/Selectize.remove_button.js"></script>
+<script src="js/Selectize.no-delete.js"></script>
+<script src="js/main.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/dynamic-form.js"></script>
+<script src="js/bundle.js"></script> <!-- поставил его самым последним -->
+</body>
+</html>

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+    <meta name="tenant-domain" content="pekarni">
+    <meta name="access-token" content="Egs_MNMvzTWmV-eUcUDDgEF3B4V7gyJg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="csrf-param" content="_csrf-backend">
+    <meta name="csrf-token" content="R1Z1azc2dkQkZg0lYV4bDBc7DARZRkAUDxtDIlROBhAVZEUnQVxFIg==">
+    <title>Редактирование меню</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/selectize.bootstrap3.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+    <link href="css/app.css" rel="stylesheet">
+    <link href="css/plan.css" rel="stylesheet"> <!-- сюда вставляешь css по плану -->
+
+    <link href="css/main.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="wrap">
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse"
+                        data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="/">
+                    <img src="img/logo.svg" alt=""/>
+                </a>
+            </div>
+            <div class="navbar-collapse collapse navbar-responsive-collapse">
+                <ul id="w0" class="nav navbar-nav"><li><a href="/report">Отчеты</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Предприятие <b class="caret"></b></a><ul id="w1" class="dropdown-menu"><li><a href="/organization" tabindex="-1">Организации</a></li>
+                        <li><a href="/warehouses" tabindex="-1">Склады</a></li>
+                        <li><a href="/sale-point" tabindex="-1">Торговые точки</a></li>
+                        <li><a href="/terminal" tabindex="-1">Терминалы</a></li></ul></li>
+                    <li class="dropdown"><a class="dropdown-toggle" href="/nomenclature/menu/nomenclature" data-toggle="dropdown">Номенклатура <b class="caret"></b></a><ul id="w2" class="dropdown-menu"><li><a href="/category" tabindex="-1">Товары</a></li>
+                        <li><a href="/menu" tabindex="-1">Меню</a></li>
+                        <li><a href="/specification" tabindex="-1">Спецификации</a></li></ul></li>
+                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Персонал <b class="caret"></b></a><ul id="w3" class="dropdown-menu"><li><a href="/hr/employee" tabindex="-1">Сотрудники</a></li>
+                        <li><a href="/hr/vacancy" tabindex="-1">Вакансии</a></li>
+                        <li><a href="/hr/applicant" tabindex="-1">Кандидаты</a></li>
+                        <li><a href="/hr/dictionary" tabindex="-1">Справочники</a></li></ul></li>
+                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Маркетинг <b class="caret"></b></a><ul id="w4" class="dropdown-menu"><li><a href="/loyalty/card" tabindex="-1">Карты</a></li>
+                        <li><a href="/loyalty/buyer" tabindex="-1">Покупатели</a></li>
+                        <li><a href="/loyalty/card-transaction" tabindex="-1">Транзакции</a></li>
+                        <li><a href="/planning/document" tabindex="-1">План продаж</a></li></ul></li>
+                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Справочники <b class="caret"></b></a><ul id="w5" class="dropdown-menu"><li><a href="/payment-type" tabindex="-1">Типы оплат</a></li>
+                        <li><a href="/cooking-type" tabindex="-1">Типы готовки</a></li>
+                        <li><a href="/measure" tabindex="-1">Единицы измерения</a></li></ul></li>
+                    <li class="dropdown"><a class="dropdown-toggle" href="#" data-toggle="dropdown">Склад <b class="caret"></b></a><ul id="w6" class="dropdown-menu"><li><a href="/warehouse/document" tabindex="-1">Журнал документов</a></li>
+                        <li><a href="/warehouse/contractor" tabindex="-1">Контрагенты</a></li></ul></li></ul>                <ul id="w7" class="nav navbar-nav navbar-right"><li><a href="/logout">Выйти</a></li></ul>            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <div class="main-content">
+            <!-- если есть атрибут data-id - значит это редактирование, если нет - значит добавление документа -->
+            <div id="planning-document-wrapper" 
+                data-api-host="dev.dooglys.com/" 
+                 data-id-2="1e24b42e-868c-4552-9097-0c064a60ff40"
+                data-id-2="<GUID>">
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/yii.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/selectize.js"></script>
+<script src="js/Selectize.remove_button.js"></script>
+<script src="js/Selectize.no-delete.js"></script>
+<script src="js/main.js"></script>
+<script src="js/menu.js"></script>
+<script src="js/dynamic-form.js"></script>
+<script src="js/plan_bundle.js"></script> <!-- сюда js -->
+</body>
+</html>
